@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Portafolio - Gabriel Castro Ramírez</title>
+</head>
+
+<body>
+  <section class="home mb-5" id="home">
+    <nav class="navbar">
+      <div>
+        <a class="text-decoration-none fs-5 fw-bold" style="color: #0d737c" href="#home">
+          Gabriel<span style="color: #268c96">Castro</span>
+        </a>
+      </div>
+      <ul class="nav-links mt-3" id="navBar">
+        <li><a class="fw-bold" href="#home">Inicio</a></li>
+        <li><a class="fw-bold" href="#about">Sobre mí</a></li>
+        <li><a class="fw-bold" href="#projects">Proyectos</a></li>
+        <li><a class="fw-bold" href="#contact">Contáctame</a></li>
+      </ul>
+      <div class="button-wrapper">
+        <a href="https://api.whatsapp.com/send/?phone=3146381395" target="_blank">
+          <button type="button" class="btn-card">Contáctame</button>
+        </a>
+      </div>
+      <div class="menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </section>
+
+  <section class="about mt-5" id="about">
+    <div class="about-image">
+      <img
+        src="https://raw.githubusercontent.com/GabrielCastro1221/imgs_portfolio/main/Imagen%20de%20WhatsApp%202024-06-11%20a%20las%2001.29.57_1155f262.jpg"
+        alt="Gabriel Castro Avatar" />
+      <div class="social-media" id="social"></div>
+    </div>
+    <div class="about-desc">
+      <h3 class="fw-bold">Sobre mí</h3>
+      <h2>Conoce un poco acerca de mí</h2>
+      <p class="mb-4">
+        Soy una persona a la que le gusta trabajar en equipo, ya que de cada
+        experiencia se obtienen aprendizajes que contribuyen a mi formación
+        personal y profesional. Me adapto fácilmente a los cambios y siempre
+        trato de buscar soluciones pertinentes y efectivas para todos los
+        retos que se me presentan.
+      </p>
+      <div class="about-personal-info mb-4 ms-4">
+        <div>
+          <span class="fw-bold">Nombre:</span><span>Gabriel Castro</span>
+        </div>
+        <div><span class="fw-bold">Edad:</span><span id="edad"></span></div>
+        <div>
+          <span class="fw-bold">Email:</span><span>gbrlcstr@hotmail.com</span>
+        </div>
+        <div>
+          <span class="fw-bold">Ubicación:</span><span>Manizales</span>
+        </div>
+      </div>
+      <a href="./pages/cv.html" target="_blank" class="ms-4 btn-card" title="Hoja de vida">
+        Ver Curriculum
+      </a>
+    </div>
+  </section>
+
+  <section class="container-resume">
+    <main class="main-resume row-resume">
+      <section class="col-resume">
+        <header class="title-resume">
+          <h2>EDUCACIÓN</h2>
+        </header>
+        <div class="contents" id="education"></div>
+      </section>
+
+      <section class="col-resume">
+        <header class="title-resume">
+          <h2>Habilidades</h2>
+        </header>
+        <div class="contents" id="skills"></div>
+      </section>
+    </main>
+  </section>
+
+  <h2 class="text-center">Mi Portafolio</h2>
+  <h3 class="sub text-center mb-4">Dale un Vistazo a Mi Trabajo</h3>
+  <section class="container d-flex flex-wrap align-items-center justify-content-center gap-4" id="projects">
+    <div class="container project-bg py-3 rounded">
+      <ul class="filter-item d-flex flex-wrap justify-content-center gap-4" id="portfolio"></ul>
+    </div>
+  </section>
+
+
+  <section class="mt-5" id="contact">
+    <h2 class="text-center">Contactame</h2>
+    <h3 class="text-center sub">Tu Opinión es Importante para Mí</h3>
+    <form id="form" class="container shadow-sm rounded px-4 py-4 mb-3">
+      <div class="mb-3">
+        <label for="from_name" class="form-label">Nombre:</label>
+        <input type="text" id="from_name" name="from_name" placeholder="Escribe tu nombre" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="email_id" class="form-label">Correo Electrónico:</label>
+        <input type="email" id="email_id" name="email_id" placeholder="example@gmail.com" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Tu Mensaje:</label>
+        <textarea rows="3" id="message" name="message" placeholder="Deja un mensaje..." class="form-control"></textarea>
+      </div>
+      <input type="submit" id="button-contact" value="Enviar Email" class="btn-contact" />
+    </form>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

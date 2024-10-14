@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../assets/images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="../css/cvStyle.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Curriculum - Gabriel Castro Ramírez</title>
+</head>
+
+<body>
+  <div class="container d-flex align-items-center justify-content-center mt-4">
+    <button onclick="downloadPDF()" class="btn-card">
+      Descargar Curriculum PDF
+    </button>
+  </div>
+  <div class="resume_wrapper">
+    <div class="resume_left">
+      <div class="resume_image">
+        <img src="https://portafolio-frontend-0lmc.onrender.com/assets/images/fotoCv.png" alt="Resume_image" />
+      </div>
+      <div class="resume_bottom">
+        <div class="resume_item resume_namerole">
+          <div class="name">Gabriel Castro Ramírez</div>
+          <div class="role">Programador Full Stack & Data Science</div>
+        </div>
+
+        <div class="resume_item resume_profile">
+          <div class="resume_title">Perfil</div>
+          <div class="resume_info">
+            Soy Programador Full Stack con experiencia en lenguajes de
+            programación como JavaScript, Python, Node.js y Express. Manejo
+            frameworks como Bootstrap, Tailwind y React.js, y tengo
+            habilidades en la administración de bases de datos SQL y MongoDB.
+            Además, implemento modelos de aprendizaje automático y profundo.
+            Disfruto trabajar en equipo, ya que cada experiencia aporta
+            aprendizajes valiosos para mi desarrollo personal y profesional.
+            Me adapto fácilmente a los cambios y siempre busco soluciones
+            pertinentes y efectivas a los retos que se me presentan.
+          </div>
+        </div>
+
+        <div class="resume_item resume_address">
+          <div class="resume_title">Dirección</div>
+          <div class="resume_info">
+            Calle 68<br />
+            # 8-126 - Piso 1<br />
+            Manizales - Colombia
+          </div>
+        </div>
+
+        <div class="resume_item resume_contact">
+          <div class="resume_title">Contacto</div>
+          <div class="resume_info" id="contact-data">
+            <div class="resume_subtitle">Telefono</div>
+            <div class="resume_subinfo">+57 314 638 1395</div>
+          </div>
+          <div class="resume_info">
+            <div class="resume_subtitle">Email</div>
+            <div class="resume_subinfo">gbrlcstr@hotmail.com</div>
+          </div>
+        </div>
+
+        <div class="resume_item resume_skills">
+          <div class="resume_title">Habilidades</div>
+          <div class="resume_info" id="resume-info">
+            <div class="skills_list">
+              <div class="skills_left">HTML</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">CSS</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Javascript</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">React JS</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Node & Express</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">SQL & MongoDB</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Python</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Machine learning</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Deep learning</div>
+            </div>
+            <div class="skills_list">
+              <div class="skills_left">Git & GitHub</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume_right">
+      <div class="resume_item resume_namerole">
+        <div class="name">Gabriel Castro Ramírez</div>
+        <div class="role fw-semibold">
+          Programador Full Stack & Data Science
+        </div>
+      </div>
+      <div class="resume_item resume_education">
+        <div class="resume_title">Educación</div>
+        <div class="resume_info">
+          <div class="resume_data">
+            <div class="year bld">1999-2000</div>
+            <div class="content">
+              <p class="bld">Auxiliar de sistemas</p>
+              <button class="btn-card mb-2" data-bs-toggle="modal" data-bs-target="#auxiliar-sistemas">
+                Certificado
+              </button>
+              <div class="modal fade" id="auxiliar-sistemas" tabindex="-1" aria-labelledby="auxiliar-sistemasLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="auxiliar-sistemasLabel">
+                        Auxiliar de sistemas
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">...</div>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Microsoft Office - Formateo y actualización de sistemas
+                operativos - actualización de software<br />
+                <span class="bld">Asociación educativa (A.E) <br />
+                  Manizales - Colombia</span>
+              </p>
+            </div>
+          </div>
+          <div class="resume_data">
+            <div class="year bld">2023-2023</div>
+            <div class="content">
+              <p class="bld">Desarrollo Web (Programación I)</p>
+              <button class="btn-card mb-2" data-bs-toggle="modal" data-bs-target="#prog">
+                Certificado
+              </button>
+              <div class="modal fade" id="prog" tabindex="-1" aria-labelledby="progLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="progLabel">
+                        Desarrollo web
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">...</div>
+                  </div>
+                </div>
+              </div>
+              <p>
+                HTML - CSS - Javascript <br />
+                <span class="bld">Instituto Argentino de Computación Filial Flores - Buenos
+                  Aires Argentina</span>
+              </p>
+            </div>
+          </div>
+          <div class="resume_data">
+            <div class="year bld">2023-2024</div>
+            <div class="content">
+              <p class="bld">Carrera Desarrollo FrontEnd Reat Js</p>
+              <button class="btn-card mb-2" data-bs-toggle="modal" data-bs-target="#react">
+                Certificado
+              </button>
+              <div class="modal fade" id="react" tabindex="-1" aria-labelledby="reactLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="reactLabel">
+                        Carrera Desarrollo FrontEnd Reat Js
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+                        <div id="carouselExample" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/CarreraReactJsTop10.png"
+                                class="d-block w-100" alt="Certificado carrera react" />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/DesarrolloWebTop10.png"
+                                class="d-block w-100" alt="certificado curos desarrollo web" />
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://portafolio-frontend-0lmc.onrender.com/assets/images/JavaScriptTop10.png"
+                                class="d-block w-100" alt="certificado curos JS" />
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://portafolio-frontend-0lmc.onrender.com/assets/images/ReactJsTop10.png"
+                                class="d-block w-100" alt="certificado curso de react" />
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Components - Hooks - Routing - Context - Firebase <br />
+                <span class="bld">Coderhouse - Buenos Aires - Argentina</span>
+              </p>
+            </div>
+          </div>
+          <div class="resume_data">
+            <div class="year bld">2023-2024</div>
+            <div class="content">
+              <p class="bld">Carrera Desarrollo Full Stack</p>
+              <button class="btn-card mb-2" data-bs-toggle="modal" data-bs-target="#full">
+                Certificado
+              </button>
+              <div class="modal fade" id="full" tabindex="-1" aria-labelledby="fullLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="fullLabel">
+                        Carrera Desarrollo Full Stack
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+                        <div id="carouselExample2" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/CarreraFullStackTop10.png"
+                                class="d-block w-100" alt="certificado carrera full stack" />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/ProgramacionBackendTop10.png"
+                                class="d-block w-100" alt="certificado curso programacion backend" />
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://portafolio-frontend-0lmc.onrender.com/assets/images/SQLTop10.png"
+                                class="d-block w-100" alt="certificado curso de SQL" />
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Node Js, Express, RestFul Api, Autenticacion y
+                autorizacion(JWT, OAuth), MongoDB, cookies, session storage,
+                patrones de diseño, patrones de arquitectura. <br />
+                <span class="bld">Coderhouse - Buenos Aires - Argentina</span>
+              </p>
+            </div>
+          </div>
+          <div class="resume_data">
+            <div class="year bld">2023-2024</div>
+            <div class="content">
+              <p class="bld">Carrera Data Science</p>
+              <button class="btn-card mb-2" data-bs-toggle="modal" data-bs-target="#data">
+                Certificado
+              </button>
+              <div class="modal fade" id="data" tabindex="-1" aria-labelledby="dataLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="dataLabel">
+                        Carrera Data Science
+                      </h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+                        <div id="carouselExample3" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/CarreraDataScience.png"
+                                class="d-block w-100" alt="certificado carrera de data Science" />
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://portafolio-frontend-0lmc.onrender.com/assets/images/DataAnalytics.png"
+                                class="d-block w-100" alt="certificado curso de data Analytics" />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/DataScienceITop10.png"
+                                class="d-block w-100" alt="certificado curso data science I" />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/DataScienceIITop10.png"
+                                class="d-block w-100" alt="certificado curso data Science II" />
+                            </div>
+                            <div class="carousel-item">
+                              <img
+                                src="https://portafolio-frontend-0lmc.onrender.com/assets/images/DataScienceIIITop10.png"
+                                class="d-block w-100" alt="certificado curso data Science III" />
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Matematica, estadistica, Python, Data Wrangling (Limpieza de
+                datos), EDA (analisis exploratorio de datos), Machine
+                Learning(Regresion lineal y logistica, Arboles de decision y
+                bosques aleatorios, Maquinas de soporte vectorial, K-NN), Deep
+                Learning(Redes Neuronales(ANN), Redes neuronales
+                convolucionales(CNN), Redes neuronales recurrentes(RNN)),
+                Procesamiento de lenguaje natural(NLP).<br />
+                <span class="bld">Coderhouse - Buenos Aires - Argentina</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume_item resume_experience">
+        <div class="resume_title">Experiencia</div>
+        <div class="resume_info">
+          <div class="resume_data">
+            <div class="year bld">2005-2013</div>
+            <div class="content">
+              <p class="bld">
+                Propietario miscelánea Donde el Gordo - Manizales Colombia.
+              </p>
+            </div>
+          </div>
+          <div class="resume_data">
+            <div class="year bld">2014-2021</div>
+            <div class="content">
+              <p class="bld">
+                Auxiliar de sistemas •Oficina de abogados Jiménez Villegas
+                Manizales Colombia
+              </p>
+              <p>
+                <span class="bld">Responsabilidades a cargo:</span><br />
+                - Mantenimiento de las computadoras. <br />
+                - Gestión de la información. <br />
+                - Manejo de herramientas ofimáticas. <br />
+                - Actualización de softwares.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume_item resmue_interests">
+        <div class="resume_title">Redes Sociales</div>
+        <div class="resume_info">
+          <div class="interests">
+            <div class="int_icon">
+              <a href="https://github.com/GabrielCastro1221" class="socialColor" target="_blank"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="int_data bld">GitHub</div>
+          </div>
+          <div class="interests">
+            <div class="int_icon">
+              <a class="socialColor" target="_blank"
+                href="https://www.linkedin.com/in/gabriel-castro-ramirez-937142332/"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="int_data bld">Linkedin</div>
+          </div>
+          <div class="interests">
+            <div class="int_icon">
+              <a class="socialColor" target="_blank" href="https://api.whatsapp.com/send/?phone=3146381395"><i
+                  class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="int_data bld">WhatsApp</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="../js/cv.js"></script>
+</body>
+
+</html>
