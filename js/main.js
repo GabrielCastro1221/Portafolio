@@ -117,7 +117,7 @@ const skills = [
 const project = [
   {
     _id: "project-01",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/cardiopatia.jpg",
+    img: "../assets/images/cardiopatia.jpg",
     title: "Simulacion Cardiopatia",
     description:
       "Modelo Desarrollado con python en google Colab el predice enfermedades cardiacas en una persona, para lograr esto se obtuvieron los datos de un conjunto de datos donde se aloja la información de varias métricas de salud de pacientes cardíacos a la cual se le realizo una limpieza de datos para poder hacer calculos precisos para una prediccion optima, fuera de eso se implementaron las tecnicas de analisis exploratorio las cuales ayudaron a analizar los datos de una manera visual para entender los datos mas facil, luego se selecciono el algoritmo de regresion el cual permitio entrenar el modelo de datos y de acuerdo a los resultados de las metricas calculadas por el modelo se analizo cual de los modelos fue el mas acertivo en la precicción. Luego se hizo una simulación donde se le pasaron por parametro cada uno de los valores de las metricas de cada paciente, dichos valores son los campos que contiene el conjunto de datos y de acuerdo a dichas metricas el sistema dira si esa persona tiene o no problemas cardiacos.",
@@ -129,7 +129,7 @@ const project = [
   },
   {
     _id: "project-02",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/icalculadora.jpg",
+    img: "../assets/images/icalculadora.jpg",
     title: "Calculadora Cientifica",
     description:
       "Calculadora cientifica con botones que permiten realizar varias operaciones matemáticas, desde simples sumas y restas hasta funciones más complejas como factoriales y potencias. Además, maneja ángulos en radianes o grados y tiene funciones trigonométricas.",
@@ -140,7 +140,7 @@ const project = [
   },
   {
     _id: "project-03",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/nbai.jpeg",
+    img: "../assets/images/nbai.jpeg",
     title: "Simulacion Juegos NBA",
     description:
       "Simulacion de partidos entre 2 equipos de la NBA, este notebook recibe una funcion que ejecuta la simulacion del juego, para esto recibira dos parametros los cuales seran los nombres de los equipos a los cuales se desea enfrentar en la simulacion dando como resultado el posible ganador del partido.",
@@ -152,7 +152,7 @@ const project = [
   },
   {
     _id: "project-04",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/bookingMedico5.jpg",
+    img: "../assets/images/bookingMedico5.jpg",
     title: "Booking Medico",
     description:
       "Booking medico desarrollado con MongoDB, Express, React Js, Node Js (MERN STACK), en esta pagina el usuario podra ingresar y solicitar una cita medica con el medico especialista de su preferencia, navegando entre todos los medicos hasta encontrar el indicado para diagnosticar su salud, esta pagina cuanta con paneles de administrador de usuarios y pacientes, tambien cuanta con un formulario donde etara la informacion de los horarios de las citas disponibles de cada doctor y en este se podra agendar la cita que quedara registrada en la base de datos.",
@@ -164,7 +164,7 @@ const project = [
   },
   {
     _id: "project-05",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/fakeNews.jpg",
+    img: "../assets/images/fakeNews.jpg",
     title: "Detector Fake News",
     description:
       "Detector de noticias falsas utilizando una red neuronal LSTM (Long Short-Term Memory) es un modelo de aprendizaje profundo diseñado para clasificar noticias como verdaderas o falsas basándose en su contenido textual, El modelo se entrena utilizando un conjunto de datos etiquetado de noticias verdaderas y falsas. Durante el entrenamiento, el modelo ajusta sus pesos para minimizar el error en la clasificación. Una vez entrenado y evaluado, el modelo puede utilizarse para predecir si nuevas noticias son verdaderas o falsas al procesar el texto a través de la red LSTM.",
@@ -176,7 +176,7 @@ const project = [
   },
   {
     _id: "project-06",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/chati.jpg",
+    img: "../assets/images/chati.jpg",
     title: "Chat comunitario",
     description:
       "Chat comunitario en tiempo real desarrollado con Node.js, Express y Socket.io, que incluye autenticación de inicio de sesión implementada con JSON Web Token (jsonwebtoken)",
@@ -187,7 +187,7 @@ const project = [
   },
   {
     _id: "project-07",
-    img: "https://gabrielcastroramirezdev.onrender.com/assets/images/ecommerce.jpg",
+    img: "../assets/images/ecommerce.jpg",
     title: "Ecommerce Nodejs - MongoDB - Handlebars",
     description:
       "Este proyecto es una ecommerce especializada en la venta de productos para skaters, desarrollada como parte del proyecto de grado de la carrera de Programación Full Stack en Coderhouse. La aplicación está construida utilizando Node.js y MongoDB, implementando diversas tecnologías",
