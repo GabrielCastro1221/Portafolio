@@ -151,18 +151,6 @@ const project = [
     category: "machine learning",
   },
   {
-    _id: "project-04",
-    img: "../assets/images/bookingMedico5.jpg",
-    title: "Booking Medico",
-    description:
-      "Booking medico desarrollado con MongoDB, Express, React Js, Node Js (MERN STACK), en esta pagina el usuario podra ingresar y solicitar una cita medica con el medico especialista de su preferencia, navegando entre todos los medicos hasta encontrar el indicado para diagnosticar su salud, esta pagina cuanta con paneles de administrador de usuarios y pacientes, tambien cuanta con un formulario donde etara la informacion de los horarios de las citas disponibles de cada doctor y en este se podra agendar la cita que quedara registrada en la base de datos.",
-    repository_link:
-      "https://github.com/GabrielCastro1221/BookingMedico_HealthPoint.git",
-    deploy_link:
-      "https://github.com/GabrielCastro1221/BookingMedico_HealthPoint.git",
-    category: "MERN",
-  },
-  {
     _id: "project-05",
     img: "../assets/images/fakeNews.jpg",
     title: "Detector Fake News",
