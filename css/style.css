@@ -234,6 +234,11 @@ html {
   margin-left: 3%;
 }
 
+.email-about  {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
 .about .about-image::before {
   position: absolute;
   content: "";

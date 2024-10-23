@@ -74,6 +74,10 @@
   margin-bottom: 2px;
 }
 
+.resume_subinfo {
+  font-size: 0.8rem;
+}
+
 .resume_wrapper .resume_left .resume_skills .skills_list {
   display: grid;
   justify-content: space-between;
