@@ -114,18 +114,18 @@ const skills = [
   },
 ];
 
-const project = [
+const projects = [
   {
     _id: "project-01",
     img: "../assets/images/cardiopatia.jpg",
     title: "Simulacion Cardiopatia",
     description:
-      "Modelo Desarrollado con python en google Colab el predice enfermedades cardiacas en una persona, para lograr esto se obtuvieron los datos de un conjunto de datos donde se aloja la información de varias métricas de salud de pacientes cardíacos a la cual se le realizo una limpieza de datos para poder hacer calculos precisos para una prediccion optima, fuera de eso se implementaron las tecnicas de analisis exploratorio las cuales ayudaron a analizar los datos de una manera visual para entender los datos mas facil, luego se selecciono el algoritmo de regresion el cual permitio entrenar el modelo de datos y de acuerdo a los resultados de las metricas calculadas por el modelo se analizo cual de los modelos fue el mas acertivo en la precicción. Luego se hizo una simulación donde se le pasaron por parametro cada uno de los valores de las metricas de cada paciente, dichos valores son los campos que contiene el conjunto de datos y de acuerdo a dichas metricas el sistema dira si esa persona tiene o no problemas cardiacos.",
+      "Este proyecto consiste en un modelo de predicción de enfermedades cardíacas desarrollado con Python en Google Colab. El objetivo del modelo es predecir la probabilidad de que una persona tenga una enfermedad cardíaca basándose en diversas métricas de salud.",
     repository_link:
       "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook.git",
     deploy_link:
       "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook/blob/main/simulacion_cardiopatia.ipynb",
-    category: "machine learning",
+    category: "python",
   },
   {
     _id: "project-02",
@@ -136,55 +136,135 @@ const project = [
     repository_link:
       "https://github.com/GabrielCastro1221/Calculadora_cientifica.git",
     deploy_link: "https://calculadora-cientifica.onrender.com/",
-    category: "HTML - CSS - JS",
+    category: "frontend",
   },
   {
     _id: "project-03",
     img: "../assets/images/nbai.jpeg",
     title: "Simulacion Juegos NBA",
-    description:
-      "Simulacion de partidos entre 2 equipos de la NBA, este notebook recibe una funcion que ejecuta la simulacion del juego, para esto recibira dos parametros los cuales seran los nombres de los equipos a los cuales se desea enfrentar en la simulacion dando como resultado el posible ganador del partido.",
+    description: "Este proyecto consiste en un modelo de simulación de partidos entre dos equipos de la NBA, desarrollado con técnicas de Machine Learning. El objetivo del modelo es predecir el resultado de un partido basándose en diversas métricas y estadísticas de los equipos.",
     repository_link:
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook.git",
     deploy_link:
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook/blob/main/ProyectoDS_GabrielCastroRamirez.ipynb",
-    category: "machine learning",
+    category: "python",
   },
   {
     _id: "project-05",
     img: "../assets/images/fakeNews.jpg",
     title: "Detector Fake News",
     description:
-      "Detector de noticias falsas utilizando una red neuronal LSTM (Long Short-Term Memory) es un modelo de aprendizaje profundo diseñado para clasificar noticias como verdaderas o falsas basándose en su contenido textual, El modelo se entrena utilizando un conjunto de datos etiquetado de noticias verdaderas y falsas. Durante el entrenamiento, el modelo ajusta sus pesos para minimizar el error en la clasificación. Una vez entrenado y evaluado, el modelo puede utilizarse para predecir si nuevas noticias son verdaderas o falsas al procesar el texto a través de la red LSTM.",
+      "Este proyecto consiste en un modelo de detección de noticias falsas desarrollado utilizando una red neuronal LSTM (Long Short-Term Memory). El objetivo del modelo es clasificar noticias como verdaderas o falsas basándose en su contenido textual.",
     repository_link:
       "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
     deploy_link:
       "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
-    category: "deep learning",
+    category: "python",
   },
   {
     _id: "project-06",
     img: "../assets/images/chati.jpg",
     title: "Chat comunitario",
     description:
-      "Chat comunitario en tiempo real desarrollado con Node.js, Express y Socket.io, que incluye autenticación de inicio de sesión implementada con JSON Web Token (jsonwebtoken)",
+      "Este proyecto consiste en un chat comunitario en tiempo real desarrollado con Node.js, Express y Socket.io.El objetivo del proyecto es permitir a los usuarios comunicarse entre sí de manera instantánea en un entorno seguro y accesible.",
     repository_link:
       "https://github.com/GabrielCastro1221/Chat_mongoDB_socket.io.git",
     deploy_link: "https://comunitary-chat.onrender.com/",
-    category: "NodeJs - MongoDB - Handlebars",
+    category: "backend",
   },
   {
     _id: "project-07",
     img: "../assets/images/ecommerce.jpg",
     title: "Ecommerce Nodejs - MongoDB - Handlebars",
     description:
-      "Este proyecto es una ecommerce especializada en la venta de productos para skaters, desarrollada como parte del proyecto de grado de la carrera de Programación Full Stack en Coderhouse. La aplicación está construida utilizando Node.js y MongoDB, implementando diversas tecnologías",
+      "Este proyecto consiste en una plataforma de ecommerce especializada en la venta de productos para skaters, desarrollada con Node.js, MongoDB y Handlebars. El objetivo del proyecto es proporcionar una experiencia de compra en línea fluida y personalizada para los entusiastas del skateboarding.",
     repository_link:
       "https://github.com/GabrielCastro1221/Ecommerce-nodeJs-MongoDB-Handlebars.git",
     deploy_link: "https://ecommerce-nodejs-mongodb-handlebars.onrender.com/",
-    category: "NodeJs - MongoDB - Handlebars",
+    category: "backend",
+  },
+  {
+    _id: "project-08",
+    img: "../assets/images/trainners.jpg",
+    title: "Plataforma de entrenadores",
+    description:
+      "La plataforma de entrenadores es tu destino integral para todo lo relacionado con el fitness y el deporte. Nuestra plataforma ofrece una experiencia completa y personalizada para usuarios y entrenadores, con múltiples funcionalidades diseñadas para satisfacer todas tus necesidades.",
+    repository_link: "https://github.com/GabrielCastro1221/trainners.git",
+    deploy_link: "https://trainners.onrender.com/",
+    category: "backend",
   },
 ];
+
+const portfolioContainer = document.getElementById("portfolio");
+const filterButtons = document.querySelectorAll(".btn-card");
+
+const displayProjects = (projects) => {
+  portfolioContainer.innerHTML = "";
+  projects.forEach((project) => {
+    const projectElement = document.createElement("li");
+    projectElement.classList.add("project-item");
+    projectElement.innerHTML = `
+      <div class="card" style="width: 18rem;">
+        <img src="${project.img}" class="card-img-top" alt="${project.title}">
+        <div class="card-body">
+          <h5 class="card-title text-center sub border-bottom">${project.title}</h5>
+          <div class="modal-category d-flex align-items-center justify-content-center mb-2">
+            <span class="badge bg-warning-subtle text-success border border-success text-capitalize">
+              ${project.category}
+            </span>
+          </div>
+          <div class="d-flex align-items-center justify-content-center mt-2">
+            <button class="btn-card" data-bs-toggle="modal" data-bs-target="#modal-${project._id}">
+              Detalle del proyecto
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal para mostrar más detalles del proyecto -->
+      <div class="modal fade" id="modal-${project._id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title sub">${project.title}</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row">
+              <div class="col-md-6">
+                <img src="${project.img}" alt="${project.title}" class="img-fluid rounded shadow-sm" />
+              </div>
+              <div class="col-md-6">
+                <div class="modal-category mb-2">
+                  <span class="badge bg-warning-subtle text-success border border-success text-capitalize">
+                    ${project.category}
+                  </span>
+                </div>
+                <p>${project.description}</p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="${project.repository_link}" target="_blank" class="btn-card">Código fuente</a>
+              <a href="${project.deploy_link}" target="_blank" class="btn-card">Ver Página Web</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    portfolioContainer.appendChild(projectElement);
+  });
+};
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const category = button.getAttribute("data-category");
+    const filteredProjects =
+      category === "all"
+        ? projects
+        : projects.filter((project) => project.category === category);
+    displayProjects(filteredProjects);
+  });
+});
+
+displayProjects(projects);
 
 menuBtn.addEventListener("click", activeClass);
 function activeClass() {
@@ -261,60 +341,6 @@ skills.forEach((skill) => {
   `;
 });
 skillsDiv.innerHTML = skillsContentHTML;
-
-function renderProjects(projects) {
-  portfolio.innerHTML = projects
-    .map(
-      (project) => `
-    <div class="card" style="width: 18rem;">
-        <img src="${project.img}" class="card-img-top" alt="${project.title}">
-        <div class="card-body">
-          <h5 class="card-title text-center sub border-bottom">${project.title}</h5>
-          <div class="modal-category d-flex align-items-center justify-content-center mb-2">
-            <span class="badge bg-warning-subtle text-success border border-success text-capitalize">
-              ${project.category}
-            </span>
-          </div>
-          <div class="d-flex align-items-center justify-content-center mt-2">
-            <button class="btn-card" data-bs-toggle="modal" data-bs-target="#modal-${project._id}">
-              Detalle del proyecto
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- Modal para mostrar más detalles del proyecto -->
-      <div class="modal fade" id="modal-${project._id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title sub">${project.title}</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body row">
-              <div class="col-md-6">
-                <img src="${project.img}" alt="${project.title}" class="img-fluid rounded shadow-sm" />
-              </div>
-              <div class="col-md-6">
-                <div class="modal-category mb-2">
-                  <span class="badge bg-warning-subtle text-success border border-success text-capitalize">
-                    ${project.category}
-                  </span>
-                </div>
-                <p>${project.description}</p>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <a href="${project.repository_link}" target="_blank" class="btn-card">Código fuente</a>
-              <a href="${project.deploy_link}" target="_blank" class="btn-card">Ver Página Web</a>
-            </div>
-          </div>
-        </div>
-      </div>
-  `
-    )
-    .join("");
-}
-renderProjects(project);
 
 $.getElementById("form").addEventListener("submit", async function (event) {
   event.preventDefault();
