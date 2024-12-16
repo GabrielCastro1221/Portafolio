@@ -142,7 +142,8 @@ const projects = [
     _id: "project-03",
     img: "../assets/images/nbai.jpeg",
     title: "Simulacion Juegos NBA",
-    description: "Este proyecto consiste en un modelo de simulación de partidos entre dos equipos de la NBA, desarrollado con técnicas de Machine Learning. El objetivo del modelo es predecir el resultado de un partido basándose en diversas métricas y estadísticas de los equipos.",
+    description:
+      "Este proyecto consiste en un modelo de simulación de partidos entre dos equipos de la NBA, desarrollado con técnicas de Machine Learning. El objetivo del modelo es predecir el resultado de un partido basándose en diversas métricas y estadísticas de los equipos.",
     repository_link:
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook.git",
     deploy_link:
@@ -191,6 +192,16 @@ const projects = [
       "La plataforma de entrenadores es tu destino integral para todo lo relacionado con el fitness y el deporte. Nuestra plataforma ofrece una experiencia completa y personalizada para usuarios y entrenadores, con múltiples funcionalidades diseñadas para satisfacer todas tus necesidades.",
     repository_link: "https://github.com/GabrielCastro1221/trainners.git",
     deploy_link: "https://trainners.onrender.com/",
+    category: "backend",
+  },
+  {
+    _id: "project-09",
+    img: "../assets/images/booking.png",
+    title: "Booking Medico - Health Point",
+    description:
+      "HealthPoint es una plataforma de agendamiento de citas médicas que ofrece paneles y perfiles autoadministrables. Permite a los usuarios agendar citas tanto online como presenciales, y cuenta con funcionalidad de video consulta. Desarrollada con MongoDB, Node.jsy Handlebars.",
+    repository_link: "https://github.com/GabrielCastro1221/bookingMedico.git",
+    deploy_link: "https://healthpoint-manizales.onrender.com/",
     category: "backend",
   },
 ];
