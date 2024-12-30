@@ -194,16 +194,6 @@ const projects = [
     deploy_link: "https://trainners.onrender.com/",
     category: "backend",
   },
-  {
-    _id: "project-09",
-    img: "../assets/images/booking.png",
-    title: "Booking Medico - Health Point",
-    description:
-      "HealthPoint es una plataforma de agendamiento de citas médicas que ofrece paneles y perfiles autoadministrables. Permite a los usuarios agendar citas tanto online como presenciales, y cuenta con funcionalidad de video consulta. Desarrollada con MongoDB, Node.jsy Handlebars.",
-    repository_link: "https://github.com/GabrielCastro1221/bookingMedico.git",
-    deploy_link: "https://healthpoint-manizales.onrender.com/",
-    category: "backend",
-  },
 ];
 
 const portfolioContainer = document.getElementById("portfolio");
