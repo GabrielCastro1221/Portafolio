@@ -125,7 +125,7 @@ const projects = [
       "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook.git",
     deploy_link:
       "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook/blob/main/simulacion_cardiopatia.ipynb",
-    category: "python",
+    category: "jupiter notebook",
   },
   {
     _id: "project-02",
@@ -148,10 +148,10 @@ const projects = [
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook.git",
     deploy_link:
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook/blob/main/ProyectoDS_GabrielCastroRamirez.ipynb",
-    category: "python",
+    category: "jupiter notebook",
   },
   {
-    _id: "project-05",
+    _id: "project-04",
     img: "../assets/images/fakeNews.jpg",
     title: "Detector Fake News",
     description:
@@ -160,10 +160,10 @@ const projects = [
       "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
     deploy_link:
       "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
-    category: "python",
+    category: "jupiter notebook",
   },
   {
-    _id: "project-06",
+    _id: "project-05",
     img: "../assets/images/chati.jpg",
     title: "Chat comunitario",
     description:
@@ -174,24 +174,34 @@ const projects = [
     category: "backend",
   },
   {
-    _id: "project-07",
-    img: "../assets/images/ecommerce.jpg",
-    title: "Ecommerce Nodejs - MongoDB - Handlebars",
-    description:
-      "Este proyecto consiste en una plataforma de ecommerce especializada en la venta de productos para skaters, desarrollada con Node.js, MongoDB y Handlebars. El objetivo del proyecto es proporcionar una experiencia de compra en línea fluida y personalizada para los entusiastas del skateboarding.",
-    repository_link:
-      "https://github.com/GabrielCastro1221/Ecommerce-nodeJs-MongoDB-Handlebars.git",
-    deploy_link: "https://ecommerce-nodejs-mongodb-handlebars.onrender.com/",
-    category: "backend",
-  },
-  {
-    _id: "project-08",
+    _id: "project-06",
     img: "../assets/images/trainners.jpg",
     title: "Plataforma de entrenadores",
     description:
       "La plataforma de entrenadores es tu destino integral para todo lo relacionado con el fitness y el deporte. Nuestra plataforma ofrece una experiencia completa y personalizada para usuarios y entrenadores, con múltiples funcionalidades diseñadas para satisfacer todas tus necesidades.",
     repository_link: "https://github.com/GabrielCastro1221/trainners.git",
     deploy_link: "https://trainners.onrender.com/",
+    category: "backend",
+  },
+  {
+    _id: "project-07",
+    img: "../assets/images/bing.jpg",
+    title: "Bing Scrapping",
+    description:
+      "Esta aplicación es una herramienta gráfica desarrollada en Python con la biblioteca Tkinter para buscar y descargar imágenes automáticamente desde Bing utilizando el módulo bing-image-downloader. El programa permite especificar un término de búsqueda y la cantidad de imágenes que se desean descargar.",
+    repository_link: "https://github.com/GabrielCastro1221/bing_scrapper.git",
+    deploy_link:
+      "https://github.com/GabrielCastro1221/bing_scrapper/tree/main/dist",
+    category: "python",
+  },
+  {
+    _id: "project-08",
+    img: "../assets/images/bookingMedico5.jpg",
+    title: "Booking Medico",
+    description:
+      "Plataforma web desarrollada con Node.js, MongoDB y Handlebars para agendar citas médicas online y presenciales. Incluye: videoconsultas: Consultas médicas remotas mediante videollamadas. Perfiles autoadministrables: Doctores, pacientes y enfermeras gestionan su información.Registro y aprobación de doctores: Los doctores se registran y son aprobados por un administrador. Panel de enfermeras: Ofrecen servicios y gestionan perfiles. Cuenta de administrador: Administra la base de datos y la plataforma.",
+    repository_link: "https://github.com/GabrielCastro1221/booking_medico.git",
+    deploy_link: "https://booking-medico.onrender.com",
     category: "backend",
   },
 ];

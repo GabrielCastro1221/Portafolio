@@ -215,6 +215,14 @@ html {
   transition: all 0.3s cubic-bezier(1, 0.3, 0.3, 1);
 }
 
+.name {
+  color: #0d737c
+}
+
+.name-span {
+  color: #268c96
+}
+
 .about {
   padding: 90px 8% 40px;
   display: flex;
