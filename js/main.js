@@ -102,7 +102,7 @@ const skills = [
     endingDate: "sept 2024",
     degree: "Carrera Data Science",
     skills:
-      "Estas habilidades están orientadas a la creación de modelos de aprendizaje automatico:  Matematica, estadistica, Python, Pandas, Numpy, MatplotLib, Sklearn, Data Wrangling(Limpieza de datos), EDA(analisis exploratorio de datos), Machine Learning(Regresion lineal y logistica, Arboles de decision y bosques aleatorios, Maquinas de soporte vectorial, K-NN), Deep Learning(Redes Neuronales(ANN), Redes neuronales convolucionales(CNN), Redes neuronales recurrentes(RNN)), Procesamiento de lenguaje natural(NLP).",
+      "Estas habilidades están orientadas a la creación de modelos de aprendizaje automatico: Python, Pandas, Numpy, MatplotLib, Sklearn, Limpieza de datos, analisis exploratorio de datos, Machine Learning, Deep Learning",
   },
   {
     id: "exp-5",
@@ -313,7 +313,7 @@ function actualizarEdad(fechaNacimiento) {
   }
   $.getElementById("edad").textContent = edad + " años";
 }
-actualizarEdad("1988-09-14");
+actualizarEdad("1987-09-14");
 
 socialData.forEach((item) => {
   let a = $.createElement("a");
