@@ -17,9 +17,9 @@ const socialData = [
     icon: "fa-brands fa-github",
   },
   {
-    link: "https://www.linkedin.com/in/gabriel-castro-ramirez-937142332/",
-    title: "Acceso directo a Linkedin",
-    icon: "fa-brands fa-linkedin-in",
+    link: "https://www.instagram.com/gabriel__castro_dev?igsh=MTlqMWQwNWVmMXNzbQ==",
+    title: "Acceso directo a Instagram",
+    icon: "fa-brands fa-instagram",
   },
   {
     link: "https://api.whatsapp.com/send/?phone=3146381395",
@@ -117,7 +117,7 @@ const skills = [
 const projects = [
   {
     _id: "project-01",
-    img: "../assets/images/cardiopatia.jpg",
+    img: "../assets/images/cardiopatia.png",
     title: "Simulacion Cardiopatia",
     description:
       "Este proyecto consiste en un modelo de predicción de enfermedades cardíacas desarrollado con Python en Google Colab. El objetivo del modelo es predecir la probabilidad de que una persona tenga una enfermedad cardíaca basándose en diversas métricas de salud.",
@@ -127,7 +127,7 @@ const projects = [
   },
   {
     _id: "project-02",
-    img: "../assets/images/icalculadora.jpg",
+    img: "../assets/images/icalculadora.png",
     title: "Calculadora Cientifica",
     description:
       "Calculadora cientifica con botones que permiten realizar varias operaciones matemáticas, desde simples sumas y restas hasta funciones más complejas como factoriales y potencias. Además, maneja ángulos en radianes o grados y tiene funciones trigonométricas.",
@@ -137,7 +137,7 @@ const projects = [
   },
   {
     _id: "project-03",
-    img: "../assets/images/nbai.jpeg",
+    img: "../assets/images/nbai.png",
     title: "Simulacion Juegos NBA",
     description:
       "Este proyecto consiste en un modelo de simulación de partidos entre dos equipos de la NBA, desarrollado con técnicas de Machine Learning. El objetivo del modelo es predecir el resultado de un partido basándose en diversas métricas y estadísticas de los equipos.",
@@ -147,7 +147,7 @@ const projects = [
   },
   {
     _id: "project-04",
-    img: "../assets/images/fakeNews.jpg",
+    img: "../assets/images/fakeNews.png",
     title: "Detector Fake News",
     description:
       "Este proyecto consiste en un modelo de detección de noticias falsas desarrollado utilizando una red neuronal LSTM (Long Short-Term Memory). El objetivo del modelo es clasificar noticias como verdaderas o falsas basándose en su contenido textual.",
@@ -157,7 +157,7 @@ const projects = [
   },
   {
     _id: "project-05",
-    img: "../assets/images/chati.jpg",
+    img: "../assets/images/chati.png",
     title: "Chat comunitario",
     description:
       "Este proyecto consiste en un chat comunitario en tiempo real desarrollado con Node.js, Express y Socket.io.El objetivo del proyecto es permitir a los usuarios comunicarse entre sí de manera instantánea en un entorno seguro y accesible.",
@@ -167,7 +167,7 @@ const projects = [
   },
   {
     _id: "project-06",
-    img: "../assets/images/bing.jpg",
+    img: "../assets/images/Bing.png",
     title: "Bing Scrapping",
     description:
       "Esta aplicación es una herramienta gráfica desarrollada en Python con la biblioteca Tkinter para buscar y descargar imágenes automáticamente desde Bing utilizando el módulo bing-image-downloader. El programa permite especificar un término de búsqueda y la cantidad de imágenes que se desean descargar.",
@@ -177,7 +177,7 @@ const projects = [
   {
     _id: "project-07",
     img: "../assets/images/chatbot.png",
-    title: "Backend Chat Bot",
+    title: "Chat Bot",
     description:
       "Este proyecto es un chatbot inteligente basado en modelos de aprendizaje automático y procesamiento de lenguaje natural (NLP). Está diseñado para responder mensajes del usuario mediante un modelo entrenado con intents personalizados, utilizando PyTorch, NLTK y expuesto mediante una API REST con Flask.",
     repository_link: "https://github.com/GabrielCastro1221/backend_chatbot_IA_python_flask",
@@ -186,11 +186,20 @@ const projects = [
   {
     _id: "project-08",
     img: "../assets/images/backendEcommerce.png",
-    title: "Backend e-commerce MongoDB",
+    title: "E-commerce MongoDB",
     description:
       "Este proyecto implementa la lógica completa de un sistema de ecommerce utilizando Node.js y MongoDB como base de datos NoSQL. Está diseñado para ser escalable, modular y fácil de integrar con frontends modernos.",
     repository_link: "https://github.com/GabrielCastro1221/BACKEND-Ecommerce-MongoDB-100-funcional",
     category: "backend",
+  },
+  {
+    _id: "project-09",
+    img: "../assets/images/POS.png",
+    title: "Sistema Point Of Sale",
+    description:
+      "Este proyecto es un Sistema Punto de Venta (POS) desarrollado para la gestión integral de un PetShop. Incluye funcionalidades completas para administrar las operaciones diarias del negocio, permitiendo un control eficiente y organizado",
+    repository_link: "https://github.com/GabrielCastro1221/pet_shop_sistema_pos",
+    category: "java",
   },
 ];
 

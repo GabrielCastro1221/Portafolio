@@ -468,8 +468,21 @@ h2 {
 }
 
 .project-item .card {
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100%;
+  overflow: hidden;
+  background-color: var(--primary-light-clr);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-item .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 5px 5px 0 0;
 }
 
 .toast-success {
@@ -495,7 +508,9 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 0 5%;
+  padding: 10% 5%; /* agrega espacio lateral */
+  max-width: 1200px; /* limita el ancho total */
+  margin: 0 auto; /* centra el contenedor */
 }
 
 @media (max-width: 768px) {
