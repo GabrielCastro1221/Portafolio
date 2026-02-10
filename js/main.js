@@ -32,7 +32,7 @@ const education = [
   {
     id: "edu-1",
     startingDate: "sept 2023",
-    endingDate: "",
+    endingDate: "Sept 2024",
     school: "Instituto Argentino de Computacion (IAC)",
     degree: "Desarrollo web",
     desc: "El curso de desarrollo web cubre HTML, CSS y JavaScript, enseña los fundamentos de cómo construir sitios web interactivos y estilizados. Al final del curso se debe ser capaz de crear sitios web completos que no solo tengan una estructura y estilo atractivo, sino que también interactúen con el usuario de manera dinámica.",
@@ -40,7 +40,7 @@ const education = [
   {
     id: "edu-2",
     startingDate: "sept 2023",
-    endingDate: "",
+    endingDate: "Sept 2024",
     school: "CoderHouse",
     degree: "Carrera Desarrollo FrontEnd React Js",
     desc: "La carrera de Frontend con React.js se enfoca en el desarrollo de interfaces de usuario (UI) para aplicaciones web modernas utilizando tecnologías del lado del cliente.",
@@ -123,8 +123,6 @@ const projects = [
       "Este proyecto consiste en un modelo de predicción de enfermedades cardíacas desarrollado con Python en Google Colab. El objetivo del modelo es predecir la probabilidad de que una persona tenga una enfermedad cardíaca basándose en diversas métricas de salud.",
     repository_link:
       "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook.git",
-    deploy_link:
-      "https://github.com/GabrielCastro1221/Simulacion_Cardiopatia_jupyter_notebook/blob/main/simulacion_cardiopatia.ipynb",
     category: "jupiter notebook",
   },
   {
@@ -135,7 +133,6 @@ const projects = [
       "Calculadora cientifica con botones que permiten realizar varias operaciones matemáticas, desde simples sumas y restas hasta funciones más complejas como factoriales y potencias. Además, maneja ángulos en radianes o grados y tiene funciones trigonométricas.",
     repository_link:
       "https://github.com/GabrielCastro1221/Calculadora_cientifica.git",
-    deploy_link: "https://calculadora-cientifica.onrender.com/",
     category: "frontend",
   },
   {
@@ -146,8 +143,6 @@ const projects = [
       "Este proyecto consiste en un modelo de simulación de partidos entre dos equipos de la NBA, desarrollado con técnicas de Machine Learning. El objetivo del modelo es predecir el resultado de un partido basándose en diversas métricas y estadísticas de los equipos.",
     repository_link:
       "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook.git",
-    deploy_link:
-      "https://github.com/GabrielCastro1221/Simulacion_Partidos_NBA_jupyter_notebook/blob/main/ProyectoDS_GabrielCastroRamirez.ipynb",
     category: "jupiter notebook",
   },
   {
@@ -157,8 +152,6 @@ const projects = [
     description:
       "Este proyecto consiste en un modelo de detección de noticias falsas desarrollado utilizando una red neuronal LSTM (Long Short-Term Memory). El objetivo del modelo es clasificar noticias como verdaderas o falsas basándose en su contenido textual.",
     repository_link:
-      "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
-    deploy_link:
       "https://colab.research.google.com/drive/1N81w_WpW2_Qubyxcl6lMBIl1Pg3bjBnZ",
     category: "jupiter notebook",
   },
@@ -170,38 +163,33 @@ const projects = [
       "Este proyecto consiste en un chat comunitario en tiempo real desarrollado con Node.js, Express y Socket.io.El objetivo del proyecto es permitir a los usuarios comunicarse entre sí de manera instantánea en un entorno seguro y accesible.",
     repository_link:
       "https://github.com/GabrielCastro1221/Chat_mongoDB_socket.io.git",
-    deploy_link: "https://comunitary-chat.onrender.com/",
     category: "backend",
   },
   {
     _id: "project-06",
-    img: "../assets/images/trainners.jpg",
-    title: "Plataforma de entrenadores",
-    description:
-      "La plataforma de entrenadores es tu destino integral para todo lo relacionado con el fitness y el deporte. Nuestra plataforma ofrece una experiencia completa y personalizada para usuarios y entrenadores, con múltiples funcionalidades diseñadas para satisfacer todas tus necesidades.",
-    repository_link: "https://github.com/GabrielCastro1221/trainners.git",
-    deploy_link: "https://trainners.onrender.com/",
-    category: "backend",
-  },
-  {
-    _id: "project-07",
     img: "../assets/images/bing.jpg",
     title: "Bing Scrapping",
     description:
       "Esta aplicación es una herramienta gráfica desarrollada en Python con la biblioteca Tkinter para buscar y descargar imágenes automáticamente desde Bing utilizando el módulo bing-image-downloader. El programa permite especificar un término de búsqueda y la cantidad de imágenes que se desean descargar.",
     repository_link: "https://github.com/GabrielCastro1221/bing_scrapper.git",
-    deploy_link:
-      "https://github.com/GabrielCastro1221/bing_scrapper/tree/main/dist",
     category: "python",
   },
   {
-    _id: "project-08",
-    img: "../assets/images/bookingMedico5.jpg",
-    title: "Booking Medico",
+    _id: "project-07",
+    img: "../assets/images/chatbot.png",
+    title: "Backend Chat Bot",
     description:
-      "Plataforma web desarrollada con Node.js, MongoDB y Handlebars para agendar citas médicas online y presenciales. Incluye: videoconsultas: Consultas médicas remotas mediante videollamadas. Perfiles autoadministrables: Doctores, pacientes y enfermeras gestionan su información.Registro y aprobación de doctores: Los doctores se registran y son aprobados por un administrador. Panel de enfermeras: Ofrecen servicios y gestionan perfiles. Cuenta de administrador: Administra la base de datos y la plataforma.",
-    repository_link: "https://github.com/GabrielCastro1221/booking_medico.git",
-    deploy_link: "https://booking-medico.onrender.com",
+      "Este proyecto es un chatbot inteligente basado en modelos de aprendizaje automático y procesamiento de lenguaje natural (NLP). Está diseñado para responder mensajes del usuario mediante un modelo entrenado con intents personalizados, utilizando PyTorch, NLTK y expuesto mediante una API REST con Flask.",
+    repository_link: "https://github.com/GabrielCastro1221/backend_chatbot_IA_python_flask",
+    category: "backend",
+  },
+  {
+    _id: "project-08",
+    img: "../assets/images/backendEcommerce.png",
+    title: "Backend e-commerce MongoDB",
+    description:
+      "Este proyecto implementa la lógica completa de un sistema de ecommerce utilizando Node.js y MongoDB como base de datos NoSQL. Está diseñado para ser escalable, modular y fácil de integrar con frontends modernos.",
+    repository_link: "https://github.com/GabrielCastro1221/BACKEND-Ecommerce-MongoDB-100-funcional",
     category: "backend",
   },
 ];
@@ -254,7 +242,6 @@ const displayProjects = (projects) => {
             </div>
             <div class="modal-footer">
               <a href="${project.repository_link}" target="_blank" class="btn-card">Código fuente</a>
-              <a href="${project.deploy_link}" target="_blank" class="btn-card">Ver Página Web</a>
             </div>
           </div>
         </div>
@@ -313,7 +300,7 @@ function actualizarEdad(fechaNacimiento) {
   }
   $.getElementById("edad").textContent = edad + " años";
 }
-actualizarEdad("1987-09-14");
+actualizarEdad("1987-12-21");
 
 socialData.forEach((item) => {
   let a = $.createElement("a");
