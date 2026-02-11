@@ -177,7 +177,7 @@ const projects = [
   {
     _id: "project-07",
     img: "../assets/images/chatbot.png",
-    title: "Chat Bot",
+    title: "Backend - Chat Bot",
     description:
       "Este proyecto es un chatbot inteligente basado en modelos de aprendizaje automático y procesamiento de lenguaje natural (NLP). Está diseñado para responder mensajes del usuario mediante un modelo entrenado con intents personalizados, utilizando PyTorch, NLTK y expuesto mediante una API REST con Flask.",
     repository_link: "https://github.com/GabrielCastro1221/backend_chatbot_IA_python_flask",
@@ -186,7 +186,7 @@ const projects = [
   {
     _id: "project-08",
     img: "../assets/images/backendEcommerce.png",
-    title: "E-commerce MongoDB",
+    title: "Backend - E-commerce MongoDB",
     description:
       "Este proyecto implementa la lógica completa de un sistema de ecommerce utilizando Node.js y MongoDB como base de datos NoSQL. Está diseñado para ser escalable, modular y fácil de integrar con frontends modernos.",
     repository_link: "https://github.com/GabrielCastro1221/BACKEND-Ecommerce-MongoDB-100-funcional",

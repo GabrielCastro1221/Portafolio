@@ -73,7 +73,7 @@ html {
   letter-spacing: 1px;
   color: var(--primary-clr);
   font-weight: 800;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .website-container section.reusable {
@@ -508,9 +508,9 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 10% 5%; /* agrega espacio lateral */
-  max-width: 1200px; /* limita el ancho total */
-  margin: 0 auto; /* centra el contenedor */
+  padding: 10% 5%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
